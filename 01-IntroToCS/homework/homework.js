@@ -3,7 +3,7 @@
 function BinarioADecimal(num) {
   // tu codigo aca
   let acum = 0;
-
+ 
   for(let i = 0; i < num.length;i++){
     acum += num[i] * Math.pow(2,num.length-1-i);
   }
